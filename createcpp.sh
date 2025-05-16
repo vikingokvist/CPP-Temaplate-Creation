@@ -83,7 +83,7 @@ for class_name in "$@"; do
 done
 
 cat <<EOF > Makefile
-NAME = ${project_name}
+NAME = execute #Change this if wanted
 
 CPP = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
